@@ -5,7 +5,7 @@ const OpenAI = require("openai");
 admin.initializeApp();
 
 const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "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",
 });
 
 exports.analyzeCode = onCall(async (request) => {
