@@ -24,7 +24,6 @@ h1 {
     filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.2));
 }
 
-/* Code Input Box */
 textarea {
     width: 90%;
     max-width: 800px;
@@ -41,11 +40,10 @@ textarea {
 
 pre {
     white-space: pre-wrap; 
-    word-wrap: break-word; /* Ensures long words don't overflow */
+    word-wrap: break-word; 
     overflow-wrap: break-word;
 }
 
-/* Analyze Button */
 button {
     background: linear-gradient(135deg, #ff6a00, #ee0979);
     color: white;
@@ -63,7 +61,6 @@ button:hover {
     box-shadow: 0px 0px 10px rgba(255, 106, 0, 0.8);
 }
 
-/* Output Section */
 #output {
     width: 90%;
     max-width: 800px;
@@ -78,13 +75,11 @@ button:hover {
     border-left: 4px solid #ff6a00;
 }
 
-/* Improve Alert Messages */
 .alert {
     color: #ff6a00;
     font-weight: bold;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     textarea {
         width: 100%;
